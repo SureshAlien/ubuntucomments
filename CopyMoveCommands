@@ -1,0 +1,37 @@
+- move folder contets to another folder
+
+sudo mv ssh //sshBack 
+************************
+
+To copy file
+
+scp (filename) (targetfolderpath)
+****************************
+
+To copy folder
+
+scp -r (foldername) (targetfolderpath)
+
+*****************
+
+to delete a folder
+
+rm -rf (foldername) 
+**********
+to delete a file
+
+rm f (filename)
+***********
+to give permission for folder
+
+chmod -R 777 (foldername)
+
+*************
+To copy a folder from server (ex: i am going to copy folder "apps" from server "root@157.245.148.163")
+
+1.scp -r apps /tmp
+2.go inside tmp  (cd /tmp/)
+3.chmod -R 777 apps
+4.open another terminal
+5.scp -r root@157.245.148.163:/tmp/apps Desktop
+
