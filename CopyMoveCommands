@@ -35,3 +35,5 @@ To copy a folder from server (ex: i am going to copy folder "apps" from server "
 4.open another terminal
 5.scp -r root@157.245.148.163:/tmp/apps Desktop
 
+*************
+
