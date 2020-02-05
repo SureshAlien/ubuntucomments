@@ -1,0 +1,28 @@
+Steps To install ubuntu
+
+1.dowonload ubuntu os from official site.
+2.format the pendrive
+3.download rufus from windows
+4.open rufus select ios image(downloaded ubuntu) using button .
+
+
+start the pc (HP)
+
+press esc and press f10
+
+inside bios setup
+
+bootable optiom--> enter
+
+enable leggacy suuport
+
+set usb to top by f6 follow some tutorial
+
+then exit
+
+press f9
+
+usbdivice(UEFI)
+
+it will take you to installation screen
+
