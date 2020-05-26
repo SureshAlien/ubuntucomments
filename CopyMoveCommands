@@ -37,3 +37,12 @@ To copy a folder from server (ex: i am going to copy folder "apps" from server "
 
 *************
 
+If you are trying to empty all of the lines.
+
+A pretty elegant and simplest approach is from the bash-cli:
+
+    echo "" > filename.txt
+    nano filename.txt
+
+
+
