@@ -1,0 +1,5 @@
+step1 :  sudo apt-get install putty-tools
+step2 : sudo puttygen /home/suresh/aa.suresh/MyExplore/Developer-Private.ppk  -O private-openssh -o yourkey.pem
+step3 : chmod 400 yourkey.pem
+step4 : ssh -i yourkey.pem root@medicaiderp.ribox.me
+

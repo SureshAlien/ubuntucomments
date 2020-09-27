@@ -6,6 +6,9 @@ sudo mv ssh //sshBack
 To copy file
 
 scp (filename) (targetfolderpath)
+
+local
+sudo cp base.txt  /home/suresh/aa.suresh/sureshTask/"24.Packing Item"/backUpnhance
 ****************************
 
 To copy folder
@@ -43,6 +46,10 @@ A pretty elegant and simplest approach is from the bash-cli:
 
     echo "" > filename.txt
     nano filename.txt
+**********
+to create folder
+
+sudo mkdir foldername
 
 
 
